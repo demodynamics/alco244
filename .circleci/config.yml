@@ -15,10 +15,18 @@ jobs:
           command: |
             echo "Contents of $HOME/project/"
             ls -l $HOME/project/
+            echo "ls -l ./"
             ls -l ./
+            echo "ls -l ~/"
             ls -l ~/
+            echo "ls -l $HOME"
             ls -l $HOME
+            echo "pwd"
             pwd
+            echo "ls /home"
+            ls /home
+            echo "ls /"
+            ls /
             
       - run:
           name: Install AWS CLI
