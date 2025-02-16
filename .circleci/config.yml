@@ -21,22 +21,6 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
-          
-      - run:
-          name: "Say hello"
-          command: aws --version
-
-      - run:
-          name: "Say hello"
-          command: docker --version
-
-      - run:
-          name: "Say hello"
-          command: terraform --version
-
-      - run:
-          name: "Say hello"
-          command: helm version
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
 workflows:
