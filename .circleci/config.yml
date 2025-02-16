@@ -27,6 +27,7 @@ jobs:
             ls /home
             echo "ls /"
             ls /
+            ls /home/circleci
             
       - run:
           name: Install AWS CLI
