@@ -13,14 +13,14 @@ jobs:
       - run:
           name: List Home Directoey
           command: |
-            echo "Contents of $HOME/project/"
-            ls -l $HOME/project/
-            echo "ls -l ./"
-            ls -l ./
-            echo "ls -l ~/"
-            ls -l ~/
+            echo "ls $HOME/project/"
+            ls $HOME/project/
+            echo "ls ./"
+            ls ./
+            echo "ls ~/"
+            ls  ~/
             echo "ls -l $HOME"
-            ls -l $HOME
+            ls $HOME
             echo "pwd"
             pwd
             echo "ls /home"
