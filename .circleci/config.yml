@@ -15,6 +15,9 @@ jobs:
           command: |
             echo "Contents of $HOME/project/"
             ls -l $HOME/project/
+            ls -l ./
+            ls -l ~/
+            ls -l $HOME
             pwd
             
       - run:
